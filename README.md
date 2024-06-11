@@ -22,7 +22,8 @@ sudo sh -c "echo 'deb https://http.kali.org/kali kali-rolling main non-free cont
 
 Go!
 
-  $ sudo chamod +x debian-to-kali.sh
-  $ sudo apt update     /verifc the kali repo
-  $ sudo apt upgrade     /in to requiered
-  $ sudo apt install <pakage requied, example (kali-desktop-xfce, hydra ,nethunter , and more)>
+- $ sudo chamod +x debian-to-kali.sh
+- $ sudo ./debian-to-kali.sh
+- $ sudo apt update     /verifc the kali repo
+- $ sudo apt upgrade     /in to requiered
+- $ sudo apt install <pakage requied, example (kali-desktop-xfce, hydra ,nethunter , and more)>
