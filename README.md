@@ -22,7 +22,7 @@ sudo sh -c "echo 'deb https://http.kali.org/kali kali-rolling main non-free cont
 
 Go!
 
-- $ sudo chamod +x debian-to-kali.sh
+- $ sudo chmod +x debian-to-kali.sh
 - $ sudo ./debian-to-kali.sh
 - $ sudo apt update     /verifc the kali repo
 - $ sudo apt upgrade     /in to requiered
