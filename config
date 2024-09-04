@@ -213,32 +213,18 @@ client.focused #444444 #bf7500 #444444 #ffff70
 bindsym mod1+Control+e exec setxkbmap es
 bindsym mod1+Control+u exec setxkbmap us
 bindsym $mod+e exec thunar
-bindsym $mod+Shift+s exec xfce4-screenshooter -r 
-#bindsym control+space exec synapse
+#bindsym $mod+Shift+s exec xfce4-screenshooter -r 
+bindsym control+space exec synapse
 bindsym $mod+t exec xfce4-terminal
 
 #-------------wallpaper on feh ---------#
 exec feh --bg-fil /home/daniel1213/.wllpi3/1.png
-bindsym mod1+Shift+1 exec feh --bg-fil /home/daniel1213/.wllpi3/2.jpg
-bindsym mod1+Shift+2 exec feh --bg-fil /home/daniel1213/.wllpi3/conquis.jpg
-bindsym mod1+Shift+3 exec feh --bg-fil /home/daniel1213/.wllpi3/minecraft-dark.jpg
-bindsym mod1+Shift+4 exec feh --bg-fil /home/daniel1213/.wllpi3/minecraft-machine.png
-bindsym mod1+Shift+5 exec feh --bg-fil /home/daniel1213/.wllpi3/gnu-linux.png
-bindsym mod1+Shift+6 exec feh --bg-fil /home/daniel1213/.wllpi3/deb-wllp.png
-#HOTS WLLP
-bindsym mod1+Shift+7 exec feh --bg-fil /home/daniel1213/.config/hots/she.jpg
-bindsym mod1+Shift+8 exec feh --bg-fil /home/daniel1213/.config/hots/critical.jpeg
-bindsym mod1+Shift+9 exec feh --bg-fil /home/daniel1213/.config/hots/shino.png
-bindsym mod1+Shift+0 exec feh --bg-fil /home/daniel1213/.config/hots/wllp-shino-hack-deb-dark.jpg
-
-
 
 #precargados
 exec lxpolkit
 exec picom -b 
-exec xfce4-clipman
-exec pnmixer
-exec synapse
+#exec xfce4-clipman
+exec volumeicon-alsa
 #bordes de ventanas
 for_window [class="^.*"] border pixel 2
 
