@@ -5,4 +5,4 @@ sudo apt-get upgrade
 sudo apt install nala
 sudo nala install wget curl links2 cava neofetch lolcat nano xterm synapse synaptic i3-wm i3-blocks dmenu flatpak kdeconnect pulseaudio vlc compiz* 
 sudo nala install fusion-icon emerald* onboard audacious arandr gnome-disk-utility chromium btop htop gnome-boxes moudepad volumeicon-alsa
-sudo nala install xfce4 xfce4-goodies picom git blueman bluez openssh-server gnome-software volumeicon-alsa htoip btop apt install lxappearance papirus-icon-theme
+sudo nala install xfce4 xfce4-goodies picom git blueman bluez openssh-server gnome-software volumeicon-alsa htoip btop apt install lxappearance papirus-icon-theme playerctl
